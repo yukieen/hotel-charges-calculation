@@ -1,5 +1,8 @@
 package model.stay.date;
 
+import model.stay.guest.Guests;
+import model.stay.guest.NumberOfGuestType;
+
 import java.time.LocalDate;
 
 /**
@@ -18,7 +21,19 @@ public class StayDate {
         return value;
     }
 
-    public SeasonType getSeasonType() {
-        return seasonType;
+    public boolean canStay(Guests guests) {
+        if (seasonType.equals(SeasonType.Disable)) {
+            return false;
+        }
+
+        if (guests.getNumberOfGuestType(this).equals(NumberOfGuestType.One) && !seasonType.equals(SeasonType.Off)) {
+            return false;
+        }
+
+        if (guests.hasWithoutMeals(this) && !seasonType.equals(SeasonType.Off)) {
+            return false;
+        }
+
+        return true;
     }
 }
