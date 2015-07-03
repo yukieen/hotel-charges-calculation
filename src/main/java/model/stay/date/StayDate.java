@@ -1,4 +1,4 @@
-package model.guest.stay.date;
+package model.stay.date;
 
 import java.time.LocalDate;
 

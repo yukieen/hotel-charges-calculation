@@ -1,4 +1,4 @@
-package model.guest.stay.date;
+package model.stay.date;
 
 /**
  * Created by yukieen on 2015/07/03.
@@ -8,5 +8,5 @@ public enum SeasonType {
     Busy,
     Calm,
     Off,
-    Disable;
+    Close;
 }

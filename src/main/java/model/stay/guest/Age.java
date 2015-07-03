@@ -1,4 +1,4 @@
-package model.guest;
+package model.stay.guest;
 
 /**
  * Created by yukieen on 2015/07/03.
@@ -8,5 +8,9 @@ public class Age {
 
     public Age(Integer value) {
         this.value = value;
+    }
+
+    public Integer getValue() {
+        return value;
     }
 }

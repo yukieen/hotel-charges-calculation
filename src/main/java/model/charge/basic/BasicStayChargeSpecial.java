@@ -1,7 +1,7 @@
 package model.charge.basic;
 
 import model.guest.NumberOfGuestType;
-import model.guest.stay.date.SeasonType;
+import model.stay.date.SeasonType;
 
 import java.util.HashMap;
 import java.util.Map;

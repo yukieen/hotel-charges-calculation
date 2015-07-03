@@ -1,7 +1,7 @@
 package model.charge.basic;
 
 import model.guest.NumberOfGuestType;
-import model.guest.stay.date.SeasonType;
+import model.stay.date.SeasonType;
 
 /**
  * Created by yukieen on 2015/07/03.

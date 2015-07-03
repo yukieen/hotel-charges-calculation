@@ -1,4 +1,4 @@
-package model.guest;
+package model.stay.bedding;
 
 /**
  * Created by yukieen on 2015/07/03.
