@@ -1,15 +1,19 @@
-package model.stay.guest;
+package model.stay.date.room.guest;
 
 import model.stay.date.StayDate;
 
 /**
  * Created by yukieen on 2015/07/03.
  */
-public class Guest {
+class Guest {
     final Age age;
+    final Meals meals;
+    final Bedding bedding;
 
-    public Guest(Age age) {
+    public Guest(Age age, Meals meals, Bedding bedding) {
         this.age = age;
+        this.meals = meals;
+        this.bedding = bedding;
     }
 
     public boolean isChild(StayDate date) {

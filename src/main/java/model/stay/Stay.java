@@ -1,26 +1,19 @@
 package model.stay;
 
-import model.stay.bedding.Bedding;
-import model.stay.date.StayDate;
-import model.stay.guest.Guest;
-import model.stay.meals.Meals;
-import model.stay.room.RoomType;
+import model.stay.date.LengthOfStay;
 
 /**
  * Created by yukieen on 2015/07/03.
  */
 public class Stay {
-    final StayDate date;
-    final RoomType roomType;
-    final Meals meals;
-    final Bedding bedding;
-    final Guest guest;
+    final LengthOfStay lengthOfStay;
 
-    public Stay(StayDate date, RoomType roomType, Meals meals, Bedding bedding, Guest guest) {
-        this.date = date;
-        this.roomType = roomType;
-        this.meals = meals;
-        this.bedding = bedding;
-        this.guest = guest;
+    public Stay(LengthOfStay lengthOfStay) {
+        this.lengthOfStay = lengthOfStay;
     }
+
+    public LengthOfStay getLengthOfStay() {
+        return lengthOfStay;
+    }
+
 };

@@ -1,4 +1,4 @@
-package model.stay.room;
+package model.stay.date.room;
 
 /**
  * Created by yukieen on 2015/07/03.

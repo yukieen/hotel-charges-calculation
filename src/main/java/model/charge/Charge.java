@@ -1,6 +1,5 @@
 package model.charge;
 
-import model.stay.Stay;
 
 /**
  * Created by yukieen on 2015/07/03.

@@ -8,10 +8,12 @@ import java.time.LocalDate;
 public class StayDate {
     final LocalDate value;
     final SeasonType seasonType;
+    final Rooms rooms;
 
-    public StayDate(LocalDate value, SeasonType seasonType) {
+    public StayDate(LocalDate value, SeasonType seasonType, Rooms rooms) {
         this.value = value;
         this.seasonType = seasonType;
+        this.rooms = rooms;
     }
 
     public LocalDate getValue() {
