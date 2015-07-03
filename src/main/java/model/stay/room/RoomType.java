@@ -1,8 +1,8 @@
 package model.stay.room;
 
-import model.stay.room.staycharge.BasicStayCharge;
-import model.stay.room.staycharge.BasicStayChargeSpecial;
-import model.stay.room.staycharge.BasicStayChargeStandard;
+import model.charge.staycharge.BasicStayCharge;
+import model.charge.staycharge.BasicStayChargeSpecial;
+import model.charge.staycharge.BasicStayChargeStandard;
 
 /**
  * Created by yukieen on 2015/07/03.

@@ -1,4 +1,4 @@
-package model.stay.room.staycharge;
+package model.charge.staycharge;
 
 import model.stay.date.SeasonType;
 import model.stay.guest.NumberOfGuestType;

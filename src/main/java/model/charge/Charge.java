@@ -1,4 +1,4 @@
-package model;
+package model.charge;
 
 import model.stay.Stay;
 
