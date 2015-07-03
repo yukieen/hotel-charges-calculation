@@ -1,4 +1,4 @@
-package model.stay.guest;
+package model.guest;
 
 import java.util.Objects;
 

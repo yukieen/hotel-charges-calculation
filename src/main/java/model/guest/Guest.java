@@ -1,6 +1,6 @@
-package model.stay.guest;
+package model.guest;
 
-import model.stay.date.StayDate;
+import model.guest.stay.date.StayDate;
 
 /**
  * Created by yukieen on 2015/07/03.
@@ -9,6 +9,9 @@ public class Guest {
     final Age age;
     final Meal meal;
     final Bedding bedding;
+    final StayDate stayDate;
+
+    final
 
     public Guest(Age age, Meal meal, Bedding bedding) {
         this.age = age;

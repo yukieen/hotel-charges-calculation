@@ -1,4 +1,4 @@
-package model.stay.date;
+package model.guest.stay.date;
 
 /**
  * Created by yukieen on 2015/07/03.

@@ -1,24 +1,17 @@
-package model.stay.date;
+package model.guest.stay;
 
-import model.stay.guest.Guests;
-import model.stay.guest.NumberOfGuestType;
-
-import java.time.LocalDate;
+import model.guest.Guests;
+import model.guest.NumberOfGuestType;
+import model.guest.stay.date.SeasonType;
 
 /**
  * Created by yukieen on 2015/07/03.
  */
-public class StayDate {
-    final LocalDate value;
-    final SeasonType seasonType;
+public class Stay {
+    final Guests guests;
 
-    public StayDate(LocalDate value, SeasonType seasonType) {
-        this.value = value;
-        this.seasonType = seasonType;
-    }
-
-    public LocalDate getValue() {
-        return value;
+    public Stay(Guests guests) {
+        this.guests = guests;
     }
 
     public boolean canStay(Guests guests) {

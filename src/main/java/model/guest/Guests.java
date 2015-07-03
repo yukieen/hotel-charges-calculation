@@ -1,6 +1,6 @@
-package model.stay.guest;
+package model.guest;
 
-import model.stay.date.StayDate;
+import model.guest.stay.date.StayDate;
 
 import java.util.List;
 import java.util.stream.Stream;
