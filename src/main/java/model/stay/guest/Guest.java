@@ -24,4 +24,8 @@ public class Guest {
         return (age.value >= 6 && date.getValue().getMonthValue() >= 4)
                 || (age.value <= 12 && date.getValue().getMonthValue() <= 3);
     }
+
+    boolean withoutMeals() {
+        return !meal.take;
+    }
 }

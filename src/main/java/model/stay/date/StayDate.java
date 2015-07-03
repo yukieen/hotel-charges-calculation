@@ -17,4 +17,8 @@ public class StayDate {
     public LocalDate getValue() {
         return value;
     }
+
+    public SeasonType getSeasonType() {
+        return seasonType;
+    }
 }

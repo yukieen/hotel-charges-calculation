@@ -21,6 +21,7 @@ public class BasicStayChargeSpecial implements BasicStayCharge {
         offMap.put(NumberOfGuestType.MoreThanFour, 15120);
 
         Map<NumberOfGuestType, Integer> calmMap = new HashMap<>();
+        // todo : ここがゼロなのはかっこわるい
         calmMap.put(NumberOfGuestType.One, 0);
         calmMap.put(NumberOfGuestType.Two, 20520);
         calmMap.put(NumberOfGuestType.Three, 18360);

@@ -15,8 +15,8 @@ public class Guests {
         this.values = values;
     }
 
-    NumberOfGuestType getNumberOfGuestType(StayDate date) {
-        // 幼児だけで宿泊すると０人になるけど実際なさげなので無視
+    public NumberOfGuestType getNumberOfGuestType(StayDate date) {
+        // 幼児だけで宿泊すると0人になるけど実際なさげなので無視
         long number = values.stream()
                 .filter(guest -> !guest.isKid(date))
                 .count();
@@ -25,5 +25,11 @@ public class Guests {
                 .filter(type -> type.equals(Long.valueOf(number).intValue()))
                 .findFirst()
                 .orElse(NumberOfGuestType.MoreThanFour);
+    }
+
+    public boolean hasWithoutMeals(StayDate date) {
+        return values.stream()
+                .filter(guest -> guest.isKid(date))
+                .anyMatch(Guest::withoutMeals);
     }
 }
