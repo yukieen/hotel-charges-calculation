@@ -1,5 +1,7 @@
 package model.stay.date;
 
+import model.stay.date.room.Rooms;
+
 import java.time.LocalDate;
 
 /**
@@ -18,5 +20,13 @@ public class StayDate {
 
     public LocalDate getValue() {
         return value;
+    }
+
+    public SeasonType getSeasonType() {
+        return seasonType;
+    }
+
+    public Rooms getRooms() {
+        return rooms;
     }
 }
