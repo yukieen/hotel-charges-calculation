@@ -1,5 +1,6 @@
 package model.stay.date.room;
 
+import model.stay.date.room.guest.Guests;
 /**
  * Created by yukieen on 2015/07/03.
  */
